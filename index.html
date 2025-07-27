@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">FoodJo</div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </nav>
+            <div class="button">
+                <button class="btn">Sign In</button>
+                <button class=" btn btn-primary">Sign Up</button>
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Order Your Best Food AnyTime </h1>
+                    <p>Hey, Our Delicious Food is waiting for you, We are always near to you with fresh item of
+                        food.
+                    </p>
+                    <button class="btn btn-primary"> Learn More </button>
+                </div>
+
+                <div class="hero-image">
+                    <img src="./assets/food.jpg" alt="delicious food" id="heroImage">
+                </div>
+            </section>
+
+            <section class="popular-dish">
+                <h2> Popular Dishes </h2>
+                <div class="dishes">
+                    <div class="dish" data-img="/assets/1.jpg">
+                        <img src="/assets/1.jpg" alt="burger">
+                        <p> Onion With Cheese </p>
+                        <span class="price"> $24.00</span>
+                        <button class="add-to-cart" data-name="burgers" data-price="$24.00">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="dish" data-img="/assets/2.jpg">
+                        <img src="assets/2.jpg" alt="burger">
+                        <p> Onion With Cheese </p>
+                        <span class="price"> $24.00</span>
+                        <button class="add-to-cart" data-name="burger" data-price="$24.00">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="dish" data-img="/assets/3.jpg">
+                        <img src="assets/3.jpg" alt="burger">
+                        <p> Onion With Cheese </p>
+                        <span class="price"> $24.00</span>
+                        <button class="add-to-cart" data-name="burgeru" data-price="$24.00">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="dish" data-img="/assets/4.jpg">
+                        <img src="assets/4.jpg" alt="burger">
+                        <p> Onion With Cheese </p>
+                        <span class="price"> $24.00</span>
+                        <button class="add-to-cart" data-name="burgeriii" data-price="$24.00">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="hero-bottom">
+            <p> @Copy ; My Restorent give you best wishes to come again and again...</p>
+            &nbsp;&nbsp;&nbsp;
+            <ul>
+                <h3>Company</h3>
+                <li>About Us</li>
+                <li>Comapny Coorporate</li>
+                <li>Careers</li>
+                <li>Team</li>
+                <li>Restorent One</li>
+                <li>Restorent Instamart</li>
+                <li>Restorent Dineout</li>
+                <li>Minis</li>
+                <li>Pyng</li>
+            </ul>
+            &nbsp;&nbsp;&nbsp;
+        <ul>
+            <h3> Contact Us</h3>
+            <li> Help & Support</li>
+            <li> Partner With Ust</li>
+            <li> Ride With Us</li>
+        </ul>
+&nbsp;&nbsp;&nbsp;&nbsp;
+        <ul>
+            <h3> Legal</h3>
+            <li> Terms & Conditions</li>
+            <li> Cookie Policy</li>
+            <li> Privacy Policy</li>
+        </ul>
+ </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
